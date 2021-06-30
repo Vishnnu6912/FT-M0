@@ -18,8 +18,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejerciciodos{
-    display: flexbox;
-    visibility: hidden;
+    display: none;
 }
 
 
@@ -41,8 +40,10 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 
 #ejerciciocuatro{
-    position: absolute;
-    top: 60;
+   position: fixed;
+   top: 0;
+   left: 0;
+
     
 }
 
@@ -53,9 +54,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 #ejerciciocinco{
     display: flex;
-    justify-content:space-evenly;
-    position: relative;
-    right:90;
+    justify-content:space-around;
+    align-items: center;
 }
 
 
